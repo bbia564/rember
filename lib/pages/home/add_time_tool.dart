@@ -24,7 +24,7 @@ class AddTimeTool extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.qanuyfrc.value)),
+              url: WebUri.uri(Uri.parse(controller.dfrnms.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;

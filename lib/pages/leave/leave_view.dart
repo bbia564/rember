@@ -11,7 +11,7 @@ class LeaveView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.dach.value
+          () => controller.ryan.value
               ? const CircularProgressIndicator(color: Colors.purple)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class LeaveView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.fjhnvw();
+              controller.cvbodyui();
             },
             icon: const Icon(
               Icons.restart_alt,

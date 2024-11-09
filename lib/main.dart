@@ -10,6 +10,7 @@ import 'package:time_lens/pages/home/add_time_spent_page.dart';
 import 'package:time_lens/pages/home/add_time_tool.dart';
 import 'package:time_lens/pages/home/home_logic.dart';
 import 'package:time_lens/pages/home/index_tab_page.dart';
+import 'package:time_lens/pages/leave/leave_binding.dart';
 import 'package:time_lens/pages/leave/leave_view.dart';
 import 'package:time_lens/pages/set/logic.dart';
 import 'package:time_lens/res/style.dart';
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
     );
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/home',
+      initialRoute: '/init',
       getPages: Paes,
       builder: (context, child) {
         return MediaQuery(
